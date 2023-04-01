@@ -1,7 +1,7 @@
 body{
     font-family: "montserrat";
     height: 100vh;
-    height: -webkit-fill-available;
+    margin: 0 auto;
     
 }
 html {
@@ -368,6 +368,33 @@ form {
 .para1 {
     color: darkslategray;
     border: none;
+}
+
+
+@media only screen and (max-width: 480px) {
+    body {
+        width: 100%;
+        font-size: 16px;
+        max-width: 480px;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 9999;
+    }
+    
+    body {
+        width: 100%;
+        max-width: 480px;
+
+    }
 }
 
 
