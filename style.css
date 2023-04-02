@@ -371,11 +371,12 @@ form {
 }
 
 
-@media only screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     body {
         width: 100%;
         font-size: 16px;
-        max-width: 480px;
+        max-width: 600px;
+        height: 100vh;
     }
 
     * {
@@ -392,15 +393,16 @@ form {
     
     body {
         width: 100%;
-        max-width: 480px;
+        max-width: 600px;
 
     }
 }
 
-@media only screen and (max-width: 320px) {
+@media screen and (max-width: 780px) {
     body {
         width: 100%;
         font-size: 16px;
-        max-width: 320px;
+        max-width: 780px;
+        height: 100vh;
     }
 }
